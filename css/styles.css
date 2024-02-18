@@ -114,3 +114,43 @@ header__menu-tab .fab {
   right: -10px;
   font-weight: 700;
 }
+.header__account {
+  display: flex;
+}
+.header__actions {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+.header__user-img {
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  margin-right: 10px;
+}
+
+.header__user-name {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-right: 20px;
+}
+.header__circle-link {
+  background: var(--button-link);
+  height: 40px;
+  width: 40px;
+  display: flex;
+  border-radius: 50%;
+  color: var(--dark-color-text);
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin-right: 10px;
+}
+.header__circle-link .fa-sort-down {
+  font-size: 1.4rem;
+  top: -3px;
+  position: relative;
+}
+.header__link-icon {
+  font-size: 0.9rem;
+}
