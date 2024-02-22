@@ -323,11 +323,11 @@ header__menu-tab .fab {
   display: flex;
   position: absolute;
   top: -20px;
-  left: 40px;
+  left: 35px;
 }
-.stories__video-container--plain .storie__title {
+.stories__video-container--plain .stories__title {
   background: transparent;
-  color: var(--fb-black);
+  color: var(--fb-white);
 }
 .stories__user {
   border: 4px solid var(--fb-blue);
@@ -335,6 +335,6 @@ header__menu-tab .fab {
   height: 40px;
   border-radius: 50%;
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: -20px;
+  left: 35px;
 }
