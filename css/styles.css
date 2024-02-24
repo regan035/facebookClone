@@ -369,3 +369,33 @@ header__menu-tab .fab {
   font-weight: 300;
   width: 100%;
 }
+.hline {
+  display: block;
+  margin-bottom: 15px;
+  height: 1px;
+  background: var(--button-link);
+}
+.post-types {
+  display: flex;
+  justify-content: space-between;
+}
+.post-types__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.post-types__item .fas,
+.post-types__item .far {
+  margin: 10px;
+  font-size: 1.5rem;
+}
+.post-types__item .fa-video {
+  color: var(--fb-red);
+}
+.post-types__item .fa-photo-video {
+  color: var(--fb-green);
+}
+.post-types__item .fa-laugh-beam {
+  color: var(--fb-yellow);
+}
