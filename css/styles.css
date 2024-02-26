@@ -163,6 +163,7 @@ header__menu-tab .fab {
 .content-area--feed {
   padding: 90px 15px 20px;
   display: flex;
+  height: 2500px;
 }
 .sidenav {
   width: 25%;
@@ -399,12 +400,16 @@ header__menu-tab .fab {
 .post-types__item .fa-laugh-beam {
   color: var(--fb-yellow);
 }
+.photopost {
+  padding: 0 0 20px;
+  margin-bottom: 20px;
+}
 .photopost__info {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 20px 0;
+  padding: 10px 20px 0;
 }
 .photopost__left {
   display: flex;
@@ -415,7 +420,7 @@ header__menu-tab .fab {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  margin: 10px;
+  margin: 10px 10px 10px 0;
 }
 .photopost__details {
   display: flex;
@@ -425,9 +430,56 @@ header__menu-tab .fab {
 .photopost__name {
   font-size: 0.9rem;
   margin-bottom: 5px;
-  font-weight: 600;
+  font-weight: 500;
 }
 .photopost__date {
   font-size: 0.8rem;
   color: var(--light-color-text);
+}
+.photopost__info {
+  color: var(--light-color-text);
+}
+.photopost__description {
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+.photopost__img img {
+  width: 100%;
+}
+.photopost__stats {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  color: var(--light-color-text);
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+.photopost__status-emojis {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.emoji-circle {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  background: black;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.4rem;
+  border-radius: 50%;
+  border: 2px solid white;
+  position: relative;
+}
+.emoji-circle:nth-child(1) {
+  z-index: 3;
+}
+.emoji-circle:nth-child(2) {
+  z-index: 2;
+}
+.emoji-circle:nth-child(3) {
+  z-index: 1;
 }
