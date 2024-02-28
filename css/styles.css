@@ -18,6 +18,7 @@
   --light-color-text: #606770;
   --button-link: #e0e2e8;
   --stories-bg: #090909;
+  --shadow-color: rgba(0, 0, 0, 0.5);
   --icon-circle-bg: linear-gradient(
     0deg,
     rgba(2, 0, 36, 1) 0%,
@@ -163,7 +164,6 @@ header__menu-tab .fab {
 .content-area--feed {
   padding: 90px 15px 20px;
   display: flex;
-  height: 2500px;
 }
 .sidenav {
   width: 25%;
@@ -533,4 +533,45 @@ header__menu-tab .fab {
 }
 .photopost__link .fas {
   margin-right: 10px;
+}
+.floatingmsg {
+  position: fixed;
+  bottom: 0;
+  right: 20px;
+}
+.floatingmsg__bubble {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  /* overflow: hidden; */
+  box-shadow: 0px 5px 10px 0px var(--shadow-color);
+  background: var(--button-link);
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+.floatingmsg__bubble img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.floatingmsg__bubble:hover {
+  color: var(--fb-blue);
+}
+.floatingmsg__notification {
+  background: var(--fb-red);
+  color: white;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -5px;
+  right: -5px;
 }
