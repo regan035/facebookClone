@@ -654,4 +654,15 @@ header__menu-tab .fab {
   .stories__video-container {
     flex: 1 0 auto;
   }
+  .content-area--feed {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 411px) {
+  .header__account {
+    display: none;
+  }
+  .post-types__title {
+    display: none;
+  }
 }
